@@ -21,8 +21,8 @@
 </head>
 <body>
     <div class="menu">
-        <a href="" id="home">Home</a>
-        <a href="" id="skills">Skills</a>
+        <a href="{{route('home')}}" id="home">Home</a>
+        <a href="{{route('skills')}}" id="skills">Skills</a>
         <a href="" id="education">Education</a>
     </div>
 

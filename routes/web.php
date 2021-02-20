@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/n1kkou', function () {
     return view('n1kkou');
-});
+}) ->name('home');
 
 Route::get('/n1kkou/skills', function () {
     return view('skills');
-});
+}) ->name('skills');
