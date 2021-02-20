@@ -20,3 +20,9 @@ Route::get('/n1kkou', function () {
 Route::get('/n1kkou/skills', function () {
     return view('skills');
 }) ->name('skills');
+
+Route::get('/n1kkou/about', function () {
+    return view('about');
+}) ->name('about');
+
+

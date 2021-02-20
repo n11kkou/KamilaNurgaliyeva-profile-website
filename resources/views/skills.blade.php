@@ -23,7 +23,7 @@
     <div class="menu">
         <a href="{{route('home')}}" id="home">Home</a>
         <a href="{{route('skills')}}" id="skills">Skills</a>
-        <a href="" id="education">Education</a>
+        <a href="{{route('about')}}" id="education">About me</a>
     </div>
 
     <div class="skill">
@@ -97,7 +97,7 @@
             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                 <span class="sr-only">90% Complete</span>
             </div>
-            <span class="progress-type">HTML / HTML5</span>
+            <span class="progress-type">HTML</span>
             <span class="progress-completed">90%</span>
         </div>
         <div class="progress1">

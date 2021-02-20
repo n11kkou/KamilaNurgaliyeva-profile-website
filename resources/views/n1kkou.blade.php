@@ -17,7 +17,7 @@
         <div class="menu">
             <a href="{{route('home')}}" id="home">Home</a>
             <a href="{{route('skills')}}" id="skills">Skills</a>
-            <a href="" id="education">Education</a>
+            <a href="{{route('about')}}" id="education">About me</a>
         </div>
 
         <div class="center">
@@ -31,8 +31,6 @@
                 <div class="btn">
                     <button type="button" class="btn btn-outline-dark" >Contact Me </button>
                 </div>
-                
-            
             </div>
         </div>
 
