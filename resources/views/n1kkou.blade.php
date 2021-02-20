@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="http://pngimg.com/uploads/paper_plane/paper_plane_PNG53.png">
 
     <link rel="stylesheet" href="{{ asset('css/n1kkou.css') }}">
 
