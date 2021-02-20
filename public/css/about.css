@@ -2,7 +2,8 @@ body{
     margin: 0 auto;
 }
 .full{
-    background-image: url(https://wallpaper.dog/large/10872703.jpg);
+    /* background-image: url(https://wallpaper.dog/large/10872703.jpg); */
+    background-image: url(bcg3.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +17,7 @@ body{
 }
 .menu a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: 'Shippori Mincho B1', serif;
 }
