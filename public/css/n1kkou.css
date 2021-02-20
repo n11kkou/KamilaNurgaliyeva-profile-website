@@ -1,0 +1,51 @@
+body{
+    margin: 0 auto;
+}
+.full{
+    background-image: url(bcg.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 753px;
+}
+.menu{
+   text-align: right;
+   margin-right: 80px;
+   padding-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(39, 51, 53);
+    font-size: 27px;
+}
+.menu #skills:hover, #education:hover{
+    text-decoration: underline;
+}
+#home{
+    text-decoration: underline;
+    margin-right: 50px;
+}
+#skills{
+    margin-right: 50px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    padding: 100px 280px 0 290px;
+    justify-content: space-between;
+}
+#photo{
+    width: 500px;
+    height: 500px;
+}
+.description h1{
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    font-size: 60px;
+}
+.btn button{
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+}
