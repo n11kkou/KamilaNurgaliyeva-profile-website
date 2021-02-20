@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="{{ asset('css/n1kkou.css') }}">
 
     <title>N1KKOU's cv</title>
 </head>
 <body>
     <div class="full">
-
         <div class="menu">
             <a href="" id="home">Home</a>
             <a href="" id="skills">Skills</a>

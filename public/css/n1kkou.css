@@ -11,13 +11,14 @@ body{
 }
 .menu{
    text-align: right;
-   margin-right: 80px;
+   padding-right: 85px;
    padding-top: 20px;
 }
 .menu a{
     text-decoration: none;
     color: rgb(39, 51, 53);
-    font-size: 27px;
+    font-size: 30px;
+    font-family: 'Shippori Mincho B1', serif;
 }
 .menu #skills:hover, #education:hover{
     text-decoration: underline;
@@ -32,7 +33,7 @@ body{
 .center{
     display: flex;
     align-items: center;
-    padding: 100px 280px 0 290px;
+    padding: 90px 260px 0 290px;
     justify-content: space-between;
 }
 #photo{
@@ -43,9 +44,12 @@ body{
     letter-spacing: 3px;
     word-spacing: 6px;
     font-size: 60px;
+    font-family: 'Shippori Mincho B1', serif;
 }
 .btn button{
     width: 200px;
     padding: 10px;
     font-size: 20px;
+    font-family: 'Shippori Mincho B1', serif;
+    letter-spacing: 2px;
 }
