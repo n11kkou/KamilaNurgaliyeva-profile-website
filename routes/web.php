@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 
+use App\Models\Post;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,4 +33,9 @@ Route::get('/post/create', function () {
         'title' => 'post1',
         'body' => 'heeeyyy'
     ]);
+});
+
+Route::get('/post', function() {
+    $post = Post::find(1);
+    return $post;
 });
