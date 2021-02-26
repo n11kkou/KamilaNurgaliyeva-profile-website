@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +26,9 @@ Route::get('/n1kkou/about', function () {
     return view('about');
 }) ->name('about');
 
-
+Route::get('/post/create', function () {
+    DB::table('posts')-> insert([
+        'title' => 'post1',
+        'body' => 'heeeyyy'
+    ]);
+});
