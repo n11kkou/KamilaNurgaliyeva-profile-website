@@ -7,6 +7,6 @@
     <title>All posts</title>
 </head>
 <body>
-    
+    {{$posts}}
 </body>
 </html>
