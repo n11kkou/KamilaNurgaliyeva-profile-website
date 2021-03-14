@@ -32,7 +32,7 @@ Route::get('/n1kkou/about', function () {
 
 
 
-Route::get('/post/create', function () {
+Route::get('/post/add', function () {
     DB::table('posts')-> insert([
         'title' => 'post1',
         'body' => 'heeeyyy'
@@ -40,3 +40,8 @@ Route::get('/post/create', function () {
 });
 
 Route::get('/post', [BlogController::class, 'index'] );
+
+Route::get('/post/create', function(){
+    return view('blog.create');
+
+});
