@@ -28,6 +28,8 @@ Route::get('/n1kkou/about', function () {
     return view('about');
 }) ->name('about');
 
+
+
 Route::get('/post/create', function () {
     DB::table('posts')-> insert([
         'title' => 'post1',
