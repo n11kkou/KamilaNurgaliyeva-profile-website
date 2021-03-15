@@ -17,6 +17,11 @@ use App\Http\Controllers\BlogController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
+
 
 Route::get('/n1kkou', function () {
     return view('n1kkou');
@@ -38,6 +43,8 @@ Route::get('/post/add', function () {
         'body' => 'heeeyyy'
     ]);
 });
+
+
 
 Route::get('/post', [BlogController::class, 'index'] );
 
