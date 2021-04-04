@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\DB;
 use App\Models\Post;
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ClientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -59,3 +60,5 @@ Route::post('/post/create', [BlogController::class, 'store'])
 
 Route::get('/post/{id}', [BlogController::class, 'get_post']);
     
+
+Route::get('/client', [ClientController::class, 'index'] );
