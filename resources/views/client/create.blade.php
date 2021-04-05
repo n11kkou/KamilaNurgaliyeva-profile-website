@@ -8,7 +8,6 @@
 </head>
 <body>
 
-
 <form method="POST" action="{{route('add-client')}}" enctype="multipart/form-data">
 @csrf
 <input type="text" name="name" placeholder="name">

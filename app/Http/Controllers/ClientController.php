@@ -36,9 +36,6 @@ class ClientController extends Controller
             ]);
             $client->save(); // Finally, save the record.
         }
-
-        return view('client.create');
-
-        
+        return view('client.create');  
     }
 }
