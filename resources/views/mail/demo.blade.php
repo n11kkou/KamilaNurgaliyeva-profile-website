@@ -11,5 +11,9 @@
 Hello <i>{{ $demo -> receiver }}</i>,
 <p>This is a demo email for testing purposes.</p>
 
+Thank You,
+<br>
+<i>{{ $demo -> sender}}</i>
+
 </body>
 </html>

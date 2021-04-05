@@ -10,7 +10,7 @@ class MailController extends Controller
 {
     public function send(){
         $objDemo = new \stdClass();
-        $objDemo -> sender = 'Kamila Nurgaliyeva';
+        $objDemo -> sender = 'Nurgaliyeva Kamila';
         $objDemo -> receiver = 'Kamila Nurgaliyeva';
 
         Mail::to("nurgalievakamila7@gmail.com") -> send(new DemoEmail($objDemo));
