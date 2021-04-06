@@ -64,9 +64,9 @@ Route::get('/post/{id}', [BlogController::class, 'get_post']);
 
 Route::get('/client', [ClientController::class, 'index'] );
 Route::get('/client/create', function(){
-    return view('client.create');
-});
+    return view('client.create'); });
 Route::post('/client/create', [ClientController::class, 'store']) 
     -> name ('add-client');
 
+    
 Route::get('mail/send', [MailController::class, 'send']);

@@ -20,9 +20,9 @@
     <div class="full">
 
        <div class="menu">
-            <a href="{{route('home')}}" id="home">Home</a>
-            <a href="{{route('skills')}}" id="skills">Skills</a>
-            <a href="{{route('about')}}" id="education">About me</a>
+            <a href="{{route('home')}}" id="home"> {{ __('lang.home')}}</a>
+            <a href="{{route('skills')}}" id="skills">{{ __('lang.skills')}}</a>
+            <a href="{{route('about')}}" id="education">{{ __('lang.about')}}</a>
         </div>
 
         <div class="card">
@@ -33,39 +33,39 @@
                 </div>
                 <div class="fio">
                     <h2 id="n">N1KKOU</h2>
-                    <p>Kamila Nurgaliyeva</p>
-                    <p><spann style="color: rgb(220, 47, 30);"> xxx </spann>websites</p>
+                    <p>{{ __('lang.name1')}}</p>
+                    <p><spann style="color: rgb(220, 47, 30);"> xxx </spann>{{ __('lang.count')}}</p>
                 </div>
             </div>
 
             <div class="part2">
                 <table class="table table-hover" id="table">
                     <tr>
-                        <th>Full Name</th>
-                        <td>Kamila Nurgaliyeva</td>
+                        <th>{{ __('lang.name')}}</th>
+                        <td>{{ __('lang.name1')}}</td>
                     </tr>
                     <tr>
-                        <th>Gender</th>
-                        <td>Female</td>
+                        <th>{{ __('lang.gender')}}</th>
+                        <td>{{ __('lang.gender1')}}</td>
                     </tr>
                     <tr>
-                        <th>Birth Date</th>
-                        <td>February 6, 2002</td>
+                        <th>{{ __('lang.birth')}}</th>
+                        <td>{{ __('lang.birth1')}}</td>
                     </tr>
                     <tr>
-                        <th>Country</th>
-                        <td>Kazakhstan</td>
+                        <th>{{ __('lang.country')}}</th>
+                        <td>{{ __('lang.country1')}}</td>
                     </tr>
                     <tr>
-                        <th>City</th>
-                        <td>Kokshetau</td>
+                        <th>{{ __('lang.city')}}</th>
+                        <td>{{ __('lang.city1')}}</td>
                     </tr>
                     <tr>
-                        <th>Education</th>
-                        <td>SDU, IS</td>
+                        <th>{{ __('lang.edu')}}</th>
+                        <td>{{ __('lang.edu1')}}</td>
                     </tr>
                     <tr>
-                        <th>Address</th>
+                        <th>{{ __('lang.address')}}</th>
                         <td>*******</td>
                     </tr>
                     <tr>
@@ -73,7 +73,7 @@
                         <td>190107067@stu.sdu.edu.kz</td>
                     </tr>
                     <tr>
-                        <th>Phone num:</th>
+                        <th>{{ __('lang.phone')}}:</th>
                         <td>8-776-***-**-**</td>
                     </tr>
                 </table>

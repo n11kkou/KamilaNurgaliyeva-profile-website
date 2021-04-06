@@ -22,13 +22,13 @@
 </head>
 <body>
     <div class="menu">
-        <a href="{{route('home')}}" id="home">Home</a>
-        <a href="{{route('skills')}}" id="skills">Skills</a>
-        <a href="{{route('about')}}" id="education">About me</a>
+        <a href="{{route('home')}}" id="home">{{ __('lang.home')}}</a>
+        <a href="{{route('skills')}}" id="skills">{{ __('lang.skills')}}</a>
+        <a href="{{route('about')}}" id="education">{{ __('lang.about')}}</a>
     </div>
 
     <div class="skill">
-        <h1>SKIILS</h1>
+        <h1>{{ __('lang.skills')}}</h1>
     </div>
     
 <div class="container">
@@ -44,7 +44,7 @@
                 <div class="progress-value">90%</div>
             </div>
             <div class="text">
-                <h3>Team work</h3>
+                <h3>{{ __('lang.team')}}</h3>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -58,7 +58,7 @@
                 <div class="progress-value">75%</div>
             </div>
             <div class="text">
-                <h3 id="eng">English</h3>
+                <h3 id="eng">{{ __('lang.english')}}</h3>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -72,7 +72,7 @@
                 <div class="progress-value">65%</div>
             </div>
             <div class="text">
-                <h3 id="crea">Creativity</h3>
+                <h3 id="crea">{{ __('lang.creativity')}}</h3>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">

@@ -16,9 +16,9 @@
 <body>
     <div class="full">
         <div class="menu">
-            <a href="{{route('home')}}" id="home">Home</a>
-            <a href="{{route('skills')}}" id="skills">Skills</a>
-            <a href="{{route('about')}}" id="education">About me</a>
+            <a href="{{route('home')}}" id="home">{{ __('lang.home')}}</a>
+            <a href="{{route('skills')}}" id="skills">{{ __('lang.skills')}}</a>
+            <a href="{{route('about')}}" id="education">{{ __('lang.about')}}</a>
         </div>
 
         <div class="center">
@@ -27,10 +27,10 @@
             </div>
             <div class="description">
                 <div class="text">
-                    <h1>Hi,<br>I'm <spann style="color: rgb(255, 255, 255); background-color: rgb(39, 51, 53);"> Kamila </spann><br>Web Designer</h1>
+                    <h1>{{ __('lang.hi')}}<br> {{ __('lang.intro1')}} <spann style="color: rgb(255, 255, 255); background-color: rgb(39, 51, 53);"> {{ __('lang.intro2')}} </spann><br>{{ __('lang.web')}}</h1>
                 </div>
                 <div class="btn">
-                    <button type="button" class="btn btn-outline-dark" >Contact Me </button>
+                    <button type="button" class="btn btn-outline-dark" > {{ __('lang.contact')}} </button>
                 </div>
             </div>
         </div>
