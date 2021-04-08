@@ -16,9 +16,9 @@
 <body>
     <div class="full">
         <div class="menu">
-            <a href="{{route('home')}}" id="home">{{ __('lang.home')}}</a>
-            <a href="{{route('skills')}}" id="skills">{{ __('lang.skills')}}</a>
-            <a href="{{route('about')}}" id="education">{{ __('lang.about')}}</a>
+            <a href="{{route('home')}}" id="home">{{__('lang.home')}}</a>
+            <a href="{{route('skills')}}" id="skills">{{__('lang.skills')}}</a>
+            <a href="{{route('about')}}" id="education">{{__('lang.about')}}</a>
         </div>
 
         <div class="center">
@@ -27,10 +27,10 @@
             </div>
             <div class="description">
                 <div class="text">
-                    <h1>{{ __('lang.hi')}}<br> {{ __('lang.intro1')}} <spann style="color: rgb(255, 255, 255); background-color: rgb(39, 51, 53);"> {{ __('lang.intro2')}} </spann><br>{{ __('lang.web')}}</h1>
+                    <h1>{{__('lang.hi')}}<br> {{__('lang.intro1')}} <spann style="color: rgb(255, 255, 255); background-color: rgb(39, 51, 53);"> {{__('lang.intro2')}} </spann><br>{{__('lang.web')}}</h1>
                 </div>
                 <div class="btn">
-                    <button type="button" class="btn btn-outline-dark" > {{ __('lang.contact')}} </button>
+                    <button type="button" class="btn btn-outline-dark" > {{__('lang.contact')}} </button>
                 </div>
             </div>
         </div>

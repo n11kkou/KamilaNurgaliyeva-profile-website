@@ -1,0 +1,30 @@
+<?php
+return [ 'home' => 'Home',
+'skills' => 'Skills',
+'about' => 'About me',
+'hi' => 'Hi,',
+'intro1' => 'Im',
+'intro2' => 'Kamila',
+'web' => 'Web Designer',
+'contact' => 'Contact me',
+'team' => 'Team Work',
+'english' => 'English',
+'creativity' => 'Creativity',
+'name' => 'Full name',
+'gender' => 'Gender',
+'birth' => 'Birth Date',
+'country' => 'Country',
+'city' => 'City',
+'edu' => 'Education',
+'address' => 'Address',
+'phone' => 'Phone num',
+
+'count' => 'websites',
+'name1' => 'Kamila Nurgaliyeva',
+'gender1' => 'Femaile',
+'birth1' => 'February 6, 2002',
+'country1' => 'Kazakhstan',
+'city1' => 'Kokshetau',
+'edu1' => 'SDU, IS'
+];
+?>

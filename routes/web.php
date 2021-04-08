@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\App;
 
 use App\Models\Post;
 
@@ -24,18 +25,32 @@ Route::get('/welcome', function () {
 });
 
 
-
-Route::get('/n1kkou', function () {
+Route::get('n1kkou', function() {
     return view('n1kkou');
-}) ->name('home');
-
-Route::get('/n1kkou/skills', function () {
+ }) ->name('home');
+Route::get('n1kkou/skills', function() {
     return view('skills');
 }) ->name('skills');
-
-Route::get('/n1kkou/about', function () {
+Route::get('/n1kkou/about', function() {
     return view('about');
 }) ->name('about');
+
+
+Route::get('n1kkou/{lang}', function($lang) {
+    App::setlocale($lang);
+    return view('n1kkou');
+ });
+Route::get('n1kkou/skills/{lang}', function($lang) {
+    App::setlocale($lang);
+    return view('skills');
+});
+Route::get('/n1kkou/about/{lang}', function($lang) {
+    App::setlocale($lang);
+    return view('about');
+});
+
+
+
 
 
 
@@ -70,3 +85,4 @@ Route::post('/client/create', [ClientController::class, 'store'])
 
     
 Route::get('mail/send', [MailController::class, 'send']);
+
